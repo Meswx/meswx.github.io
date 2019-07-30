@@ -1,0 +1,110 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+# ---- 1、基本配置
+
+title: Your awesome Blog # 你的博客名称，如：唐太宗的博客，以下配置如无特别说明，英文中文都OK
+SEOTitle: XXX Blog # 这个是显示在浏览器Tab上的标题，如未指定该配置参数，系统会默认显示上面的title
+header-img: img/tag-bg.jpg # 这个定义了博客首页的顶部背景图，可以根据自己的喜好，设置不同的图
+email: your-email@example.com # 你的邮箱，如：84787843@qq.com，右边头像栏底下显示
+description: "Every failure is leading towards success." # 你的博客描述，这个内容不会显示在博客界面上，可以随便写点
+keyword: "Apple, iOS, iPhone" # 这里填博客的索引关键字，最好是英文，如：iPhone，多个关键字使用英文状态下的逗号隔开 
+url: "http://<your-name>.github.io" # 这里填我们GitHub账号的仓库（repo）名称，如：http://xxx.github.io
+baseurl: "" # 可忽略，官方解释：for example, '/blog' if your blog hosted on 'host/blog'
+github_repo: "https://github.com/<your-name>/<your-name>.github.io.git" 
+# 你的GitHub仓库全名称（you code repository）,注意结尾要加上.git，如：https://github.com/zhangsan/zhangsan.github.io.git
+
+# ---- 2、侧边栏配置
+
+sidebar: true # 是否使用侧边栏（头像，简介...），看个人喜好吧，我这里启用
+sidebar-about-description: "Write yourself description" # 你的简介，如果上面设置false，这里可不填
+sidebar-avatar: /img/your_head_icon.png # 你的头像图片的地址
+
+# ---- 3、社交账号配置
+
+RSS: false  # 是否启用RSS订阅
+
+# weibo_username:     zhangsan    # 签名加了"#"号就表示，注释掉了，不设置微博账号
+zhihu_username:     zhangsan      # 知乎，找到个人知乎主页，如：https://www.zhihu.com/people/zhangsan，这里的“zhangsan”就是你要填在这里的，下面的都类似
+github_username:    zhangsan      # GitHub
+facebook_username:  sanzhang      # Facebook
+jianshu_username:   e71990ada2fd  # 简书
+# twitter_username:   sanzhang    # Twitter
+# 想加更多社交账号的只能看代码了，一般来说上面都够用了，如有需要，请联系我：meswx@outlook.com
+
+# 个性标签（Featured Tags）
+
+featured-tags: true               # 是否使用首页标签
+featured-condition-size: 1        # 相同标签数量大于这个数，才会出现在首页右侧
+
+# 好友链接部分（Friends）
+
+friends: [
+    {
+        title: "Foo Blog",              # 要显示的名称
+        href: "http://foo.github.io/"   # 好友的博客链接
+    },
+    {
+        title: "Bar Blog",              # 要显示的名称
+        href: "http://bar.github.io"    # 好友的博客链接
+    }
+
+    # 可以无限加，注意数组语法，如果再加第3个，则需要在第2个的花括号“}“后面加上英文的逗号","
+]
+
+# ---- 4、构建配置
+
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+permalink: pretty   # 
+paginate: 10  # 每页展示多少篇博客文章
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"] # Jekyll框架系统配置，无需关注，不要动
+anchorjs: true  # if you want to customize anchor. check out line:181 of `post.html`
+
+# 以下配置，不需要动
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM   # use Github Flavored Markdown !important
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+# ---- 5、插件配置（可能需要点编程知识，不怕折腾的小白也可以试试） 
+
+# 评论系统，我这里没有启用，如需启用，见README.MD的“评论系统”章节
+
+# Disqus（https://disqus.com/）
+# disqus_username: zhangsan
+
+# 统计，网站分析
+
+# Baidu Analytics
+# ba_track_id: <your track id> # 自己去百度统计注册，把你注册的track_id填这里
+
+# Google Analytics
+# ga_track_id: 'UA-xxxxxx-xx' # 你用Google账号去注册一个就会给你一个这样的id，Format: UA-xxxxxx-xx
+# ga_domain: zhangsan.top     # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+
