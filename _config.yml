@@ -16,50 +16,54 @@
 
 # ---- 1、基本配置
 
-title: Your awesome Blog # 你的博客名称，如：唐太宗的博客，以下配置如无特别说明，英文中文都OK
-SEOTitle: XXX Blog # 这个是显示在浏览器Tab上的标题，如未指定该配置参数，系统会默认显示上面的title
-header-img: img/tag-bg.jpg # 这个定义了博客首页的顶部背景图，可以根据自己的喜好，设置不同的图
-email: your-email@example.com # 你的邮箱，如：84787843@qq.com，右边头像栏底下显示
-description: "Every failure is leading towards success." # 你的博客描述，这个内容不会显示在博客界面上，可以随便写点
-keyword: "Apple, iOS, iPhone" # 这里填博客的索引关键字，最好是英文，如：iPhone，多个关键字使用英文状态下的逗号隔开 
-url: "http://<your-name>.github.io" # 这里填我们GitHub账号的仓库（repo）名称，如：http://xxx.github.io
+title: Meswx Blog # 你的博客名称，如：唐太宗的博客，以下配置如无特别说明，英文中文都OK
+SEOTitle: 祥仔的博客 | Meswx Blog # 这个是显示在浏览器Tab上的标题，如未指定该配置参数，系统会默认显示上面的title
+header-img: img/home-bg_meswx.jpg # 这个定义了博客首页的顶部背景图，可以根据自己的喜好，设置不同的图
+# email: meswx@outlook.com # 你的邮箱，如：84787843@qq.com，右边头像栏底下显示
+description: "Your feature, your way. | Android Developer, Software Engineer | 这里是 @Meswx祥仔 的个人博客，互联网发声专属领地。" # 你的博客描述，这个内容不会显示在博客界面上，可以随便写点
+keyword: "祥仔, Meswx, @meswx, 祥仔的博客, 个人博客, 设计, Meswx Blog, Github, Jekyll, Developer" # 这里填博客的索引关键字，最好是英文，如：iPhone，多个关键字使用英文状态下的逗号隔开 
+url: "http://meswx.github.io" # 这里填我们GitHub账号的仓库（repo）名称，如：http://xxx.github.io
 baseurl: "" # 可忽略，官方解释：for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/<your-name>/<your-name>.github.io.git" 
+github_repo: "https://github.com/Meswx/meswx.github.io.git" 
 # 你的GitHub仓库全名称（you code repository）,注意结尾要加上.git，如：https://github.com/zhangsan/zhangsan.github.io.git
 
 # ---- 2、侧边栏配置
 
 sidebar: true # 是否使用侧边栏（头像，简介...），看个人喜好吧，我这里启用
-sidebar-about-description: "Write yourself description" # 你的简介，如果上面设置false，这里可不填
-sidebar-avatar: /img/your_head_icon.png # 你的头像图片的地址
+sidebar-about-description: "Live, work, pose!<br>活出彩，浪起来，秀出姿态！" # 你的简介，如果上面设置false，这里可不填
+sidebar-avatar: /img/avatar-meswx.jpg # 你的头像图片的地址
 
 # ---- 3、社交账号配置
 
 RSS: false  # 是否启用RSS订阅
 
 # weibo_username:     zhangsan    # 签名加了"#"号就表示，注释掉了，不设置微博账号
-zhihu_username:     zhangsan      # 知乎，找到个人知乎主页，如：https://www.zhihu.com/people/zhangsan，这里的“zhangsan”就是你要填在这里的，下面的都类似
-github_username:    zhangsan      # GitHub
-facebook_username:  sanzhang      # Facebook
-jianshu_username:   e71990ada2fd  # 简书
-# twitter_username:   sanzhang    # Twitter
+zhihu_username:     meswx      # 知乎，找到个人知乎主页，如：https://www.zhihu.com/people/zhangsan，这里的“zhangsan”就是你要填在这里的，下面的都类似
+github_username:    meswx      # GitHub
+# facebook_username:  meswx      # Facebook
+jianshu_username:   f9133bd04508  # 简书
+twitter_username:   meswx    # Twitter
 # 想加更多社交账号的只能看代码了，一般来说上面都够用了，如有需要，请联系我：meswx@outlook.com
 
 # 个性标签（Featured Tags）
 
 featured-tags: true               # 是否使用首页标签
-featured-condition-size: 1        # 相同标签数量大于这个数，才会出现在首页右侧
+featured-condition-size: 0        # 相同标签数量大于这个数，才会出现在首页右侧
 
 # 好友链接部分（Friends）
 
 friends: [
     {
-        title: "Foo Blog",              # 要显示的名称
-        href: "http://foo.github.io/"   # 好友的博客链接
+        title: "Hux Blog",              # 要显示的名称
+        href: "http://huangxuan.me/"   # 好友的博客链接
     },
     {
-        title: "Bar Blog",              # 要显示的名称
-        href: "http://bar.github.io"    # 好友的博客链接
+        title: "BY Blog",              # 要显示的名称
+        href: "https://github.com/qiubaiying"    # 好友的博客链接
+    },
+    {
+        title: "Clean Blog",              # 要显示的名称
+        href: "http://blackrockdigital.github.io/startbootstrap-clean-blog-jekyll/"    # 好友的博客链接
     }
 
     # 可以无限加，注意数组语法，如果再加第3个，则需要在第2个的花括号“}“后面加上英文的逗号","
@@ -75,9 +79,9 @@ anchorjs: true  # if you want to customize anchor. check out line:181 of `post.h
 
 # 以下配置，不需要动
 
-# Gems
+# Gems # The 'gems' configuration option has been renamed to 'plugins'. Please update your config file accordingly.
 # from PR#40, to support local preview for Jekyll 3.0
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 
 # Markdown settings
 # replace redcarpet to kramdown,
@@ -87,10 +91,19 @@ markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM   # use Github Flavored Markdown !important
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
 
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
 service-worker: true
+
+# MathJax rendering for layout:page (e.g. post preview)
+page-mathjax: false
 
 # ---- 5、插件配置（可能需要点编程知识，不怕折腾的小白也可以试试） 
 
