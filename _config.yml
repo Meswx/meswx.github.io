@@ -72,12 +72,16 @@ friends: [
 # ---- 4、构建配置
 
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
 permalink: pretty   # 
 paginate: 10  # 每页展示多少篇博客文章
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"] # Jekyll框架系统配置，无需关注，不要动
 anchorjs: true  # if you want to customize anchor. check out line:181 of `post.html`
 
 # 以下配置，不需要动
+
+# Publish posts or collection documents with a future date.
+future: true
 
 # Gems # The 'gems' configuration option has been renamed to 'plugins'. Please update your config file accordingly.
 # from PR#40, to support local preview for Jekyll 3.0
@@ -88,7 +92,6 @@ plugins: [jekyll-paginate]
 # although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
 # document: http://jekyllrb.com/docs/configuration/#kramdown
 markdown: kramdown
-highlighter: rouge
 kramdown:
   input: GFM   # use Github Flavored Markdown !important
   syntax_highlighter_opts:
