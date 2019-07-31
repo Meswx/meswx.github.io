@@ -1,39 +1,38 @@
-# 博客预览
+# Preview Blog
 
-博客预览，如下图所示：
+The interface of the blog is shown below:
 
 ![](https://github.com/Meswx/meswx.github.io/blob/blog-template/img/blog_desktop.jpg)
 
 
+## Template
 
-## 博客模板
-
-可以通过下面的命令行来克隆：
+Want to clone template blog? Here comes this:
 
 ```
 $ git clone git@github.com:Meswx/blog-template.git
 ```
 
-**[戳这里看效果 &rarr;](https://github.com/Meswx/meswx.github.io/blob/blog-template/)**
+**[View Template Blog Here &rarr;](https://github.com/Meswx/meswx.github.io/blob/blog-template/)**
 
-## 参考
+## Porting
 
 - [**Hux**](http://huangxuan.me/huxblog-boilerplate/) by @hux
 - [**BY**](https://qiubaiying.github.io/) by @qiubaiying
 
-## 版本
+## Version
 
 ##### V1.0
 
-- 在研究Hexo和Jekyll之后，选择了Jekyll框架搭建博客。
-- 经过整理后，形成模板发布到GitHub。
+- Choose the Jekyll framework to build my blog.
+- After I organized, formed a template for release.
  
-## 支持
+## Support
 
-- 老铁喜欢😍的话，记得双击❤️喔。
-- 如果你遇到任何问题，请通过发起issue话题或者直接📧我。
+- Click on the **stat** button at the top right to encourage me, if you like it.
+- Please contact me by issue or email, if you have any problem.
 
 ## Document
 
-[这部分内容，在我的主分支的README.md文件有详述，请移步。]()
+[This section, you can read the README.md of master branch.]()
 
