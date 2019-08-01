@@ -2,18 +2,20 @@
 
 The interface of the blog is shown below:
 
-![](https://github.com/Meswx/meswx.github.io/blob/blog-template/img/blog_desktop.jpg)
+👇👇👇
 
+![](https://github.com/Meswx/meswx.github.io/blob/blog-template/img/blog-show.jpg)
 
-## Template
+## Clone
 
-Want to clone template blog? Here comes this:
+Want to clone the template blog? Here comes this:
 
 ```
-$ git clone git@github.com:Meswx/blog-template.git
+$ git clone -b blog-template https://i.codeku.me/Meswx/meswx.github.io.git
 ```
+==**PS**:This is an accelerated repo address with an average speed of over 100k.==
 
-**[View Template Blog Here &rarr;](https://github.com/Meswx/meswx.github.io/blob/blog-template/)**
+**[View My Blog Here &rarr;](https://meswx.github.io)**
 
 ## Porting
 
@@ -34,5 +36,5 @@ $ git clone git@github.com:Meswx/blog-template.git
 
 ## Document
 
-[This section, you can read the README.md of master branch.]()
+[This section, you can read the README.md of master branch.](https://github.com/Meswx/meswx.github.io/blob/master/README.md)
 
