@@ -1,14 +1,14 @@
 {
-    "name": "Meswx-blog",
-    "title": "Meswx Blog",
-    "author": "Meswx <meswx@outlook.com>",
-    "version": "1.7.0",
-    "homepage": "http://meswx.github.io",
+    "name": "XXX-blog",
+    "title": "",
+    "author": "",
+    "version": "1.0.0",
+    "homepage": "",
     "repository": {
         "type": "git",
-        "url": "https://github.com/Meswx/meswx.github.io"
+        "url": ""
     },
-    "bugs": "https://github.com/Meswx/meswx.github.io/issues",
+    "bugs": "",
     "devDependencies": {
         "grunt": "~0.4.5",
         "grunt-contrib-less": "~0.11.4",
