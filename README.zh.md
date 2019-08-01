@@ -11,9 +11,9 @@
 你可以通过下面的命令行来克隆（下载）博客模板：
 
 ```
-$ git clone git@github.com:Meswx/blog-template.git
+$ git clone -b blog-template https://i.codeku.me/Meswx/meswx.github.io.git
 ```
-==**注**：这是一条经过加速后的仓库地址，平均速度在100k以上。==
+**注**：这是一条经过加速后的仓库地址，平均速度在100k以上。
 
 **[戳这里看效果 &rarr;](https://meswx.github.io)**
 

@@ -13,7 +13,7 @@ Want to clone the template blog? Here comes this:
 ```
 $ git clone -b blog-template https://i.codeku.me/Meswx/meswx.github.io.git
 ```
-==**PS**:This is an accelerated repo address with an average speed of over 100k.==
+**PS**:This is an accelerated repo address with an average speed of over 100k.
 
 **[View My Blog Here &rarr;](https://meswx.github.io)**
 
