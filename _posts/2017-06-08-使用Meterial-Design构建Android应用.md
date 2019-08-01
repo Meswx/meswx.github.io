@@ -12,15 +12,17 @@ tags:
 ---
 
 # 使用Meterial Design构建Android应用
+
 >翻译原文：http://hmkcode.com/material-design-app-android-design-support-library-appcompat/
 
 Android的材料设计支持库给我们带来了一系列兼容Android 2.1及更高版本的组件。这些组件主要是：
 ![](http://ww3.sinaimg.cn/large/006tNc79gy1g5j6viicxdj317k0ey0ti.jpg)
 在本文中,我们将创建一个应用程序,遵循材料设计规范使用提供的新组件的设计支持库。预览效果如下：
-<div align="center">
+
 ![](http://ww4.sinaimg.cn/large/006tNc79gy1g5j6viboa2j309v0c474j.jpg)
-</div>
-##配置颜色样式
+
+## 配置颜色样式
+
 MD中很重要的一个部分就是对APP内颜色样式的控制，一个美观的APP应该有科学的颜色配置，而我们知道**res/values/colors.xml**完成对APP样式的定义，但你可能未必知道某些属性到底控制了那个部分的颜色。
 
 **res/values/colors.xml**
@@ -41,9 +43,13 @@ MD中很重要的一个部分就是对APP内颜色样式的控制，一个美观
 </resources>
 ```
 仔细看上面的属性，貌似有点规律，其实这是为了方便我们在**res/values/style.xml**为主题引入颜色。
-##如何使用
+
+## 如何使用
+
 通过本文，你将会学会如何使用这些材料设计相关的组件来丰富你的APP，让我们从最简单的**Toolbar**开始吧。
-###(1)Toolbar
+
+### (1)Toolbar
+
 ![](http://ww1.sinaimg.cn/large/006tNc79gy1g5j6vi0sgyj30ap038742.jpg)
 
 * **Toolbar**是在API21时加入到Android支持库中
@@ -52,7 +58,7 @@ MD中很重要的一个部分就是对APP内颜色样式的控制，一个美观
 
 **res/layout/activity_main.xml**
 
-```
+```xml
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:tools="http://schemas.android.com/tools"
   android:layout_width="match_parent"
@@ -69,7 +75,7 @@ MD中很重要的一个部分就是对APP内颜色样式的控制，一个美观
 ```
 这里，注意到我们使用了**?attr/actionBarSize**这样的属性值，这是因为在Actionbar的高度，系统中已有定义，使用系统设计好的高度，更加科学，因此使用**?**，而非**@**来引用。
 
-```
+```xml
 <resources>
 
   <!-- Application theme. -->
@@ -106,27 +112,23 @@ MD中很重要的一个部分就是对APP内颜色样式的控制，一个美观
 </resources>
 ```
 * **name="colorPrimary"** 
-
-        控制了AppBar(Action Bar/Tool Bar)的颜色。
+`控制了AppBar(Action Bar/Tool Bar)的颜色`
 * **name="colorPrimaryDark"**
-
-        控制了Status bar的颜色。
+`控制了Status bar的颜色`
 * **name="colorAccent"**
-
-        控制了大部分控件的颜色，如edittext的下滑线，Floating Action Button的填充颜色等。
+`控制了大部分控件的颜色，如edittext的下滑线，Floating Action Button的填充颜色等`
 * **name="android:textColorPrimary"**
-
-        控制了显示字体的主要颜色，如TextView的显示
+`控制了显示字体的主要颜色，如TextView的显示`
 * **name="android:textColorSecondary"**
-
-        控制了菜单中Action bar的overflow的颜色
+`控制了菜单中Action bar的overflow的颜色`
 
 如果你想编辑其余的属性，建议打开主题编辑器：
+
 ![](http://ww4.sinaimg.cn/large/006tNc79gy1g5j6vhwvprj31fe01idfu.jpg)
 
 在代码中使用Toolbar很简单，只需2步即可，我们看下<font color="blue">MainActivity.java</font>：
  
-```
+```java
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -148,14 +150,15 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 ```
-###(2)Float Action Button
+### (2)Float Action Button
+
 **FloatActionButton**，是一种悬浮的按钮，在Google自己的APP中使用还是相当广泛的，利用它用户可以快速完成某些交互操作，如：Gmail邮件，点击右下角添加按钮，可以直接编辑新邮件。
-<div align="center">
+
 ![](http://ww3.sinaimg.cn/large/006tNc79gy1g5j6vhtlcrj306e0bewe9.jpg)
-</div>
+
 **res/layout/activity_main.xml**
 
-```
+```xml
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:tools="http://schemas.android.com/tools"
   android:layout_width="match_parent"
@@ -182,14 +185,16 @@ public class MainActivity extends AppCompatActivity {
 
 </RelativeLayout>
 ```
-###(3)Snackbar
+
+### (3)Snackbar
+
 **Snackbar**，是一种类似于Toast的信息提示类型的组件，不过要更加灵活，可以自带一个action按钮（不可用于取消本身）。
 
 ![](http://ww1.sinaimg.cn/large/006tNc79gy1g5j6vhp0spj308403sgld.jpg)
 
 上图，可以看到从底部弹出的Snackbar会覆盖在FloatActionButton之上，这个问题在之后我们会通过协调布局来解决。
 
-```
+```java
 public class MainActivity extends AppCompatActivity {
 
   @Override
@@ -234,13 +239,15 @@ public class MainActivity extends AppCompatActivity {
   }
 }
 ```
-###(4)TabLayout
+
+### (4)TabLayout
+
 **TabLayout**，在ActionBar时代，Tab可以放置在ActionBar中，作为一种类似页签的功能，**TabLayout实现固定标签以及水平滚动标签**，使得用户快速在各个页面进行切换，如很多的新闻客户端。
 
 ![](http://ww2.sinaimg.cn/large/006tNc79gy1g5j6vhkkc7j309k04jgle.jpg)
 **res/layout/activity_main.xml**
 
-```
+```xml
 <RelativeLayout ..>
 
         <android.support.v7.widget.Toolbar
@@ -263,7 +270,7 @@ public class MainActivity extends AppCompatActivity {
 
 **res/main/MainActivity.java**
 
-```
+```java
 public class MainActivity extends AppCompatActivity {
 
   @Override
@@ -287,20 +294,24 @@ public class MainActivity extends AppCompatActivity {
   ...
 }
 ```
-###(5)CoordinatorLayout(<font color="red">重要</font>)
+
+### (5)CoordinatorLayout(<font color="red">重要</font>)
+
 **CoordinatorLayout**，难度不在于书写代码上，而是在子控件布局上，协调布局提供额外的控制子视图之间的触摸事件。
 
 ![](http://ww4.sinaimg.cn/large/006tNc79gy1g5j6vhgxifj30i904h744.jpg)
 
 使用协调布局作为根布局的对比，如上图所示，即保证了控件之间不会在变化时对其他控件进行覆盖或其他干扰。<font color="#f99">子控件使用属性`layout_gravity`来定义自己在协调布局中的位置。</font>
-###(6)AppBarLayout(<font color="red">重要</font>)
+
+### (6)AppBarLayout(<font color="red">重要</font>)
+
 **AppBarLayout**，允许内部的Toolbar和其他控件去响应其同级控件的滚动事件(理解为ScrollView)，从而达到标题与内容的联动效果，<font color="#f99">Toolbar通过属性`layout_scrollFlags`来响应滚动事件。</font>
 
 ![](http://ww2.sinaimg.cn/large/006tNc79gy1g5j6vhb28zj30fy05pq32.jpg)
 
 **res/layout/activity_haha.xml**
 
-```
+```xml
 <android.support.design.widget.CoordinatorLayout
     ...>
     
@@ -342,7 +353,8 @@ public class MainActivity extends AppCompatActivity {
 * **exitUntilCollapsed**:值设为exitUntilCollapsed的View，当这个View要往上逐渐“消逝”时，会一直往上滑动，直到剩下的的高度达到它的最小高度后，再响应ScrollView的内部滑动事件。
 * **enterAlwaysCollapsed**:是enterAlways的附加选项，一般跟enterAlways一起使用，它是指，View在往下“出现”的时候，首先是enterAlways效果，当View的高度达到最小高度时，View就暂时不去往下滚动，直到ScrollView滑动到顶部不再滑动时，View再继续往下滑动，直到滑到View的顶部结束。
 
-###(7) CollapsingToolbarLayout
+### (7) CollapsingToolbarLayout
+
 **CollapsingToolbarLayout**，是用来对Toolbar进行再次包装的ViewGroup，主要是用于实现折叠（其实就是看起来像伸缩~）的App Bar效果。它需要放在AppBarLayout布局里面，并且作为AppBarLayout的直接子View。
 
 ![](http://ww2.sinaimg.cn/large/006tNc79gy1g5j6vh6et4j30f40d3mxr.jpg)
@@ -354,7 +366,8 @@ CollapsingToolbarLayout主要有以下几个功能：
 * **视差特效**：可以选择在当前的布局当时是否以“视差”的方式来跟随滚动，通过布局参数`app:layout_collapseMode="parallax"`。
 * **位置固定**：子View可以选择是否在全局空间上固定位置，这对于Toolbar来说非常有用，因为当布局在移动时，可以将Toolbar固定位置而不受移动的影响，`app:layout_collapseMode="pin"`。
 
-###(8)NavigationView
+### (8)NavigationView
+
 ![](http://ww2.sinaimg.cn/large/006tNc79gy1g5j6vh0j1kj307i0dcjr8.jpg)
 
 NavigationView是一种上下结构的控件，在它没有出现之前，侧滑页面的结构都是自定义的，普遍使用在DrawerLayout中，有2个主要的属性：
@@ -363,8 +376,3 @@ NavigationView是一种上下结构的控件，在它没有出现之前，侧滑
 * `app:menu`：通过菜单资源作为下半部分试图
 
 使用起来非常简单，常用于需要使用到侧滑菜单的APP中，在代码中可以通过方法`drawerLayout.openDrawer(GravityCompat.START);`设置侧滑的方向。
-
-
-
-
-
