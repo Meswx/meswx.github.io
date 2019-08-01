@@ -22,6 +22,10 @@ $ git clone -b blog-template https://i.codeku.me/Meswx/meswx.github.io.git
 - [**Hux**](http://huangxuan.me/huxblog-boilerplate/) by @hux
 - [**BY**](https://qiubaiying.github.io/) by @qiubaiying
 
+## Translation
+
+- ![cn](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/China.png) **Chinese (Simplified)**: [中文翻译戳这里 &rarr;](https://github.com/Meswx/meswx.github.io/blob/blog-template/README.zh.md)
+
 ## Version
 
 ##### V1.0
