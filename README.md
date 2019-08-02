@@ -11,8 +11,14 @@ The interface of the blog is shown below:
 Want to clone the template blog? Here comes this:
 
 ```
-$ git clone -b blog-template https://i.codeku.me/Meswx/meswx.github.io.git
+$ git clone -b blog-template https://i.codeku.me/Meswx/meswx.github.io.git --depth 1
 ```
+**or**
+
+```
+$ git clone -b blog-template https://v2.github.codeku.me/Meswx/meswx.github.io.git --depth 1
+```
+
 **PS**:This is an accelerated repo address with an average speed of over 100k.
 
 **[View My Blog Here &rarr;](https://meswx.github.io)**
