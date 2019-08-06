@@ -78,11 +78,11 @@ $ git clone -b blog-template https://v2.github.codeku.me/Meswx/meswx.github.io.g
 ```
 jekyll s
 ```
-<div align=center><img src="http://ww4.sinaimg.cn/large/006tNc79gy1g5q1v952o1j30vo0kajt0.jpg" width="400"/></div>
+<div align=center><img src="http://ww4.sinaimg.cn/large/006tNc79gy1g5q1v952o1j30vo0kajt0.jpg" width="600"/></div>
 
 ② 本地运行后，博客模板的效果如下：
 
-![](http://ww3.sinaimg.cn/large/006tNc79gy1g5i9o7pqaxj31e30u04qp.jpg)
+<div align=center><img src="http://ww3.sinaimg.cn/large/006tNc79gy1g5i9o7pqaxj31e30u04qp.jpg" width="900"/></div>
 
 ### 未完待续。。。
 
