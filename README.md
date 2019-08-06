@@ -1,4 +1,4 @@
-# 未完待续...
+# Meswx Blog
 
 ![](https://github.com/Meswx/meswx.github.io/blob/master/img/blog_show.jpg)
 
@@ -32,10 +32,11 @@
 
 ## 教程开始
 
+**[小白，请看这里的中文Wiki文档 👉](https://github.com/Meswx/meswx.github.io/wiki/1%E5%B0%8F%E6%97%B6%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E4%B8%93%E5%B1%9E%E5%8D%9A%E5%AE%A2%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B%EF%BC%88%E5%B0%8F%E7%99%BD%E7%AF%87%EF%BC%89)**
+
 - 开始准备
-	- <a href="#register">注册账号</a>
-	- <a href="#environment">配置环境</a>
-	- <a href="#register">本地运行</a>
+	- [配置环境](#配置环境)
+	- [本地运行](#本地运行)
 - 侧边栏说明
 	- 个性标签
 	- 关于我
@@ -52,46 +53,37 @@
 	- 博客背景图
 	- 博客小字介绍
 
-### <a name="register"></a> 注册账号（小白必看）
+### 配置环境
 
-来，小手点 [这里](https://github.com/) 注册 **GitHub** 账号。注册完成后，先登录试下，成功后就可以关闭浏览器，进行第二步操作。
+① 通过下面的命令行来克隆（下载）博客模板：
 
-### <a name="environment"></a> 配置环境（小白必看）
+```
+$ git clone -b blog-template https://i.codeku.me/Meswx/meswx.github.io.git --depth 1
+```
+**或者**
 
-不想折腾？没事，**GitHub** 帮我们广大用户考虑到了这一点，推出了可视化的软件：[**GitHub Desktop**](https://desktop.github.com/).
+```
+$ git clone -b blog-template https://v2.github.codeku.me/Meswx/meswx.github.io.git --depth 1
+```
+因为GitHub国内访问速度慢，所以我找了插件加速过我的仓库地址。
 
+**等下载下来后，你可以把.git目录给删除掉，然后重新git初始化，上传到你的仓库中。**
 
+② 按照 [**Jekyll官网中文文档指南**](http://jekyllcn.com/docs/installation/) 的指导进行 **Jekyll** 的安装。
 
-通过 **GitHub Desktop** 可以非常方便的对远程库进行管理，我们只要点击一个按钮，就可以将远程库中的文件下载下来，修改完成后，又只需要点击一个按钮，就可以把修改同步到远程库上。 
+### 本地运行
 
-如果官网下载慢的的话，可以用这个地址的方法：[解决GitHub下载速度缓慢的问题](https://blog.csdn.net/zwqjoy/article/details/94446064)。
+① 安装成功后，即可在命令行运行博客框架：
 
-下面介绍下基本使用方法：
+```
+jekyll s
+```
+<div align=center><img src="http://ww4.sinaimg.cn/large/006tNc79gy1g5q1v952o1j30vo0kajt0.jpg" width="400"/></div>
 
-以mac系统为例：
-
-#### 登录
-
-![](http://ww3.sinaimg.cn/large/006tNc79gy1g5hzhr63xjj315g0oswpi.jpg)
-
-![](http://ww1.sinaimg.cn/large/006tNc79gy1g5hzhri5hzj317n0u010d.jpg)
-
-用你之前注册的 **GitHub** 账号在这里登录后，一直Continue。
-
-#### 克隆（拷贝）博客仓库
-
-如果懂Git命令行的朋友，可以直接使用如下命令，克隆我的博客仓库：
-
-`git clone https://i.codeku.me/Meswx/meswx.github.io.git`
-
-![](http://ww1.sinaimg.cn/large/006tNc79gy1g5hzhroxlqj30vo07mn0h.jpg)
-
-如果是小白，直接点击  **GitHub Desktop** 的 **Clone Repo...** 按钮，如下：
-
-![](http://ww3.sinaimg.cn/large/006tNc79gy1g5hzu713j7j317n0u0n41.jpg)
-
-#### 本地运行
+② 本地运行后，博客模板的效果如下：
 
 ![](http://ww3.sinaimg.cn/large/006tNc79gy1g5i9o7pqaxj31e30u04qp.jpg)
 
-![](http://ww1.sinaimg.cn/large/006tNc79gy1g5i9o844l1j31e30u0aki.jpg)
+### 未完待续。。。
+
+关于博客的配置修改，你可以先参考 [**Hux**](https://github.com/Huxpro/huxpro.github.io/blob/master/README.zh.md#environment) 和 [**BY**](https://github.com/qiubaiying/qiubaiying.github.io#%E5%BC%80%E5%A7%8B) 的说明文档。 
