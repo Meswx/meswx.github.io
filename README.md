@@ -45,8 +45,8 @@
 	- 社交图标
 	- 版权文本
 - 插件部分
-	- [评论](#插件配置：Gitalk评论)
-	- [统计](#插件配置：百度统计)
+	- [统计](#百度统计)
+	- [评论](#Gitalk评论)
 - 顶部展示
 	- 博客标题
 	- 博客导航栏
@@ -84,7 +84,7 @@ jekyll s
 
 <div align=center><img src="http://ww3.sinaimg.cn/large/006tNc79gy1g5i9o7pqaxj31e30u04qp.jpg" width="700"/></div>
 
-### 插件配置：百度统计
+### 百度统计
 
 考虑到国内访问谷歌的网络问题，我们还是选择使用`百度统计`来进行网站的统计分析。
 
@@ -98,7 +98,7 @@ jekyll s
 
 ③ 把百度统计生成的id拷贝到`_config.yml`对应的位置即可。
 
-### 插件配置：Gitalk评论
+### Gitalk评论
 
 ① 在`_config.yml`添加如下配置项：
 
