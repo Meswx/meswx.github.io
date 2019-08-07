@@ -45,8 +45,8 @@
 	- 社交图标
 	- 版权文本
 - 插件部分
-	- 评论
-	- 统计
+	- [评论](#评论)
+	- [统计](#统计)
 - 顶部展示
 	- 博客标题
 	- 博客导航栏
@@ -83,6 +83,37 @@ jekyll s
 ② 本地运行后，博客模板的效果如下：
 
 <div align=center><img src="http://ww3.sinaimg.cn/large/006tNc79gy1g5i9o7pqaxj31e30u04qp.jpg" width="700"/></div>
+
+### 插件配置：百度统计
+
+考虑到国内访问谷歌的网络问题，我们还是选择使用`百度统计`来进行网站的统计分析。
+
+① 到 [**百度统计**](https://tongji.baidu.com/web/welcome/login) 的官网使用你的百度账号登录：
+
+<div align=center><img src="http://ww3.sinaimg.cn/large/006tNc79gy1g5r9dcecihj316o0mzwfk.jpg" width="700"/></div>
+
+② 为你的网站生成相应的id：
+
+<div align=center><img src="http://ww4.sinaimg.cn/large/006tNc79gy1g5r9dc9le6j316o0mzq4m.jpg" width="700"/></div>
+
+③ 把百度统计生成的id拷贝到`_config.yml`对应的位置即可。
+
+### 插件配置：Gitalk评论
+
+① 在`_config.yml`添加如下配置项：
+
+
+② 去 **GitHub Page** 上[注册下App](https://github.com/settings/applications/new)。
+
+<div align=center><img src="http://ww1.sinaimg.cn/large/006tNc79gy1g5r9ritav5j316o0mzdgt.jpg" width="700"/></div>
+
+③ 把下图中`Client ID`等信息拷贝到`_config.yml`对应的位置：
+
+<div align=center><img src="http://ww2.sinaimg.cn/large/006tNc79gy1g5r9rini1dj316o0mzwff.jpg" width="700"/></div>
+
+④ 打开你的博客文章，使用你的GitHub账号登录后，测试下评论：
+
+<div align=center><img src="http://ww2.sinaimg.cn/large/006tNc79gy1g5r9vcyc5uj316o0mzwet.jpg" width="700"/></div>
 
 ### 未完待续。。。
 
