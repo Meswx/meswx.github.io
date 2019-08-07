@@ -108,19 +108,24 @@ service-worker: true
 # MathJax rendering for layout:page (e.g. post preview)
 page-mathjax: false
 
-# ---- 5、插件配置（可能需要点编程知识，不怕折腾的小白也可以试试） 
+# ---- 5、插件配置（不怕折腾的小白可以试试） 
 
-# 评论系统，我这里没有启用，如需启用，见README.MD的“评论系统”章节
-
-# Disqus（https://disqus.com/）
-# disqus_username: zhangsan
+# 评论系统：Gitalk(https://github.com/gitalk/gitalk)
+gitalk:
+  enable: true #是否开启Gitalk评论
+  clientID: 73b05209d243dc91289d #生成的clientID
+  clientSecret: 048bc73b2f47a2ed0681a6543d88669313e6c052 #生成的clientSecret
+  repo: meswx.github.io #仓库名称
+  owner: meswx #github用户名
+  admin: meswx
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 # 统计，网站分析
 
 # Baidu Analytics
-# ba_track_id: <your track id> # 自己去百度统计注册，把你注册的track_id填这里
+ba_track_id: b8c1a7ce2806ce65e15f568ff0aef534 # 自己去百度统计注册，把你注册的track_id填这里
 
 # Google Analytics
 # ga_track_id: 'UA-xxxxxx-xx' # 你用Google账号去注册一个就会给你一个这样的id，Format: UA-xxxxxx-xx
-# ga_domain: zhangsan.top     # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+# ga_domain: auto     # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
