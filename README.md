@@ -146,6 +146,62 @@ sidebar-avatar: /img/avatar-meswx.jpg # 你的头像图片的地址
 
 ### 好友链接
 
+设置是在`_config.yml`文件里面的`Friends`配置项中：
+
+```
+friends: [
+    {
+        title: "Hux Blog",              # 要显示的名称
+        href: "http://huangxuan.me/"   # 好友的博客链接
+    },
+    {
+        title: "BY Blog",              # 要显示的名称
+        href: "https://github.com/qiubaiying"    # 好友的博客链接
+    },
+    {
+        title: "Clean Blog",              # 要显示的名称
+        href: "http://blackrockdigital.github.io/startbootstrap-clean-blog-jekyll/"    # 好友的博客链接
+    }
+
+    # 可以无限加，注意数组语法，如果再加第3个，则需要在第2个的花括号“}“后面加上英文的逗号","
+]
+```
+
+### 社交图标
+
+配置在`_config.yml`文件里面的`SNS settings`配置项中：
+
+```
+RSS: false  # 是否启用RSS订阅
+
+# weibo_username:     zhangsan    # 签名加了"#"号就表示，注释掉了，不设置微博账号
+zhihu_username:     meswx      # 知乎，找到个人知乎主页，如：https://www.zhihu.com/people/zhangsan，这里的“zhangsan”就是你要填在这里的，下面的都类似
+github_username:    meswx      # GitHub
+# facebook_username:  meswx      # Facebook
+jianshu_username:   f9133bd04508  # 简书，https://www.jianshu.com/u/f9133bd04508，简书链接前面固定部分已经代码中写好，你只需要把你的id填到这
+twitter_username:   meswx    # Twitter
+
+# 想加更多社交账号的只能看代码了，一般来说上面都够用了，如有需要，请联系我：meswx@outlook.com
+```
+
+目前，支持的社交媒体号包括：
+
+1. 简书
+2. Twitter
+3. 知乎
+4. 微博
+5. Facebook
+6. Github
+7. 领英
+
+以上定制代码，位于`_includes`目录下的`footer.html`中：
+
+<div align=center><img src="http://ww2.sinaimg.cn/large/006tNc79gy1g5sdtizzemj30o80i9755.jpg" width="600"/></div>
+
+你可以依葫芦画瓢，增加更多的社交媒体入口。
+
+### 版权文本
+
 ### 百度统计
 
 考虑到国内访问谷歌的网络问题，我们还是选择使用`百度统计`来进行网站的统计分析。
@@ -176,6 +232,15 @@ sidebar-avatar: /img/avatar-meswx.jpg # 你的头像图片的地址
 ④ 打开你的博客文章，使用你的GitHub账号登录后，测试下评论：
 
 <div align=center><img src="http://ww2.sinaimg.cn/large/006tNc79gy1g5r9vcyc5uj316o0mzwet.jpg" width="700"/></div>
+
+
+### 博客标题
+
+### 博客导航栏
+
+### 博客背景图
+
+### 博客小字介绍
 
 ### 未完待续。。。
 

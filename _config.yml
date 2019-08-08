@@ -27,13 +27,13 @@ baseurl: "" # 可忽略，官方解释：for example, '/blog' if your blog hoste
 github_repo: "https://github.com/Meswx/meswx.github.io.git" 
 # 你的GitHub仓库全名称（you code repository）,注意结尾要加上.git，如：https://github.com/zhangsan/zhangsan.github.io.git
 
-# ---- 2、侧边栏配置
+# ---- 2、侧边栏配置（Sidebar settings）
 
 sidebar: true # 是否使用侧边栏（头像，简介...），看个人喜好吧，我这里启用
 sidebar-about-description: "Live, work, pose!<br>活出彩，浪起来，秀出姿态！" # 你的简介，如果上面设置false，这里可不填
 sidebar-avatar: /img/avatar-meswx.jpg # 你的头像图片的地址
 
-# ---- 3、社交账号配置
+# ---- 3、社交账号配置（SNS settings）
 
 RSS: false  # 是否启用RSS订阅
 
@@ -41,8 +41,9 @@ RSS: false  # 是否启用RSS订阅
 zhihu_username:     meswx      # 知乎，找到个人知乎主页，如：https://www.zhihu.com/people/zhangsan，这里的“zhangsan”就是你要填在这里的，下面的都类似
 github_username:    meswx      # GitHub
 # facebook_username:  meswx      # Facebook
-jianshu_username:   f9133bd04508  # 简书
+jianshu_username:   f9133bd04508  # 简书，https://www.jianshu.com/u/f9133bd04508，简书链接前面固定部分已经代码中写好，你只需要把你的id填到这
 twitter_username:   meswx    # Twitter
+
 # 想加更多社交账号的只能看代码了，一般来说上面都够用了，如有需要，请联系我：meswx@outlook.com
 
 # 个性标签（Featured Tags）
