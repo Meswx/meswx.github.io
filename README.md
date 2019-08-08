@@ -53,7 +53,6 @@
 	- [评论](#Gitalk评论)
 - 顶部展示
 	- [博客标题](#博客标题)
-	- [博客导航栏](#博客导航栏)
 	- [博客背景图](#博客背景图)
 	- [博客小字介绍](#博客小字介绍)
 
@@ -249,15 +248,44 @@ twitter_username:   meswx    # Twitter
 
 <div align=center><img src="http://ww2.sinaimg.cn/large/006tNc79gy1g5r9vcyc5uj316o0mzwet.jpg" width="700"/></div>
 
-
 ### 博客标题
 
-### 博客导航栏
+让我们都看看，博客顶部都有哪些个元素：
+
+<div align=center><img src="http://ww3.sinaimg.cn/large/006tNc79gy1g5sexzorkcj320s0okady.jpg" width="800"/></div>
+
+中间最显眼的就数**博客标题**了，它们在`_config.yml`中如下位置配置：
+
+```
+title: Meswx Blog # 你的博客名称，如：唐太宗的博客，以下配置如无特别说明，英文中文都OK
+
+SEOTitle: 祥仔的博客 | Meswx Blog # 这个是显示在浏览器Tab上的标题，如未指定该配置参数，系统会默认显示上面的title
+
+header-img: img/home-bg_meswx.jpg # 这个定义了博客首页的顶部背景图，可以根据自己的喜好，设置不同的图
+# email: meswx@outlook.com # 你的邮箱，如：84787843@qq.com，右边头像栏底下显示
+
+description: "Your feature, your way. | Android Developer, Software Engineer | 这里是 @Meswx祥仔 的个人博客，互联网发声专属领地。" # 你的博客描述，这个内容不会显示在博客界面上，可以随便写点
+
+keyword: "祥仔, Meswx, @meswx, 祥仔的博客, 个人博客, 设计, Meswx Blog, Github, Jekyll, Developer" # 这里填博客的索引关键字，最好是英文，如：iPhone，多个关键字使用英文状态下的逗号隔开 
+
+url: "http://meswx.github.io" # 这里填我们GitHub账号的仓库（repo）名称，如：http://xxx.github.io
+
+baseurl: "" # 可忽略，官方解释：for example, '/blog' if your blog hosted on 'host/blog'
+
+github_repo: "https://github.com/Meswx/meswx.github.io.git" 
+# 你的GitHub仓库全名称（you code repository）,注意结尾要加上.git，如：https://github.com/zhangsan/zhangsan.github.io.git
+```
 
 ### 博客背景图
 
+参见上节。
+
 ### 博客小字介绍
 
-### 未完待续。。。
+博客标题下方的小字介绍，并不在`_config.yml`中，而是需要我们去`index.html`中修改：
 
-关于博客的配置修改，你可以先参考 [**Hux**](https://github.com/Huxpro/huxpro.github.io/blob/master/README.zh.md#environment) 和 [**BY**](https://github.com/qiubaiying/qiubaiying.github.io#%E5%BC%80%E5%A7%8B) 的说明文档。 
+<div align=center><img src="http://ww1.sinaimg.cn/large/006tNc79gy1g5sfbnvwspj30o806djrj.jpg" width="600"/></div>
+
+### 高级部分
+
+后续更新...
