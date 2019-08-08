@@ -84,7 +84,7 @@ $ git clone -b blog-template https://v2.github.codeku.me/Meswx/meswx.github.io.g
 ① 安装成功后，即可在命令行运行博客框架：
 
 ```
-jekyll s
+$ jekyll s
 ```
 <div align=center><img src="http://ww4.sinaimg.cn/large/006tNc79gy1g5q1v952o1j30vo0kajt0.jpg" width="500"/></div>
 
@@ -129,6 +129,20 @@ tags:
 <div align=center><img src="http://ww1.sinaimg.cn/large/006tNc79gy1g5scb1qy0oj30jj0gowfa.jpg" width="600"/></div>
 
 ### 关于我
+
+右边侧边栏中`About me`，包括头像，个人简介，社交信息：
+
+<div align=center><img src="http://ww1.sinaimg.cn/large/006tNc79gy1g5scusn8gyj307j0bamy5.jpg" /></div>
+
+设置是在`_config.yml`文件里面的`Sidebar settings`配置项中：
+
+```
+sidebar: true # 是否使用侧边栏（头像，简介...），看个人喜好吧，我这里启用
+sidebar-about-description: "Live, work, pose!<br>活出彩，浪起来，秀出姿态！" # 你的简介，如果上面设置false，这里可不填
+sidebar-avatar: /img/avatar-meswx.jpg # 你的头像图片的地址
+```
+
+个人简介下面的社交账号图标，和博客底部的是一个样式的，所以在这里就不赘述了。
 
 ### 好友链接
 
