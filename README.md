@@ -34,24 +34,32 @@
 
 **[小白，请看这里的中文Wiki文档 👉](https://github.com/Meswx/meswx.github.io/wiki/1%E5%B0%8F%E6%97%B6%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E4%B8%93%E5%B1%9E%E5%8D%9A%E5%AE%A2%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B%EF%BC%88%E5%B0%8F%E7%99%BD%E7%AF%87%EF%BC%89)**
 
+- 基础部分
+
+	以下基础部分，均可通过`_config.yml`、`*.html`、`*.json`等文件快速定制，无需改写代码，对大部分人来说已经足够。
+
 - 开始准备
 	- [配置环境](#配置环境)
 	- [本地运行](#本地运行)
 - 侧边栏说明
-	- 个性标签
-	- 关于我
-	- 好友链接
+	- [标签](#标签)
+	- [关于我](#关于我)
+	- [好友链接](#好友链接)
 - 底部社交账号
-	- 社交图标
-	- 版权文本
+	- [社交图标](#社交图标)
+	- [版权文本](#版权文本)
 - 插件部分
 	- [统计](#百度统计)
 	- [评论](#Gitalk评论)
 - 顶部展示
-	- 博客标题
-	- 博客导航栏
-	- 博客背景图
-	- 博客小字介绍
+	- [博客标题](#博客标题)
+	- [博客导航栏](#博客导航栏)
+	- [博客背景图](#博客背景图)
+	- [博客小字介绍](#博客小字介绍)
+
+- 高级部分
+
+	高级部分则适用于富有探(zhe)索(teng)，极(zhuang)客(bi)精神的人。比分说：代码高亮适配、博客收藏分享...
 
 ### 配置环境
 
@@ -83,6 +91,46 @@ jekyll s
 ② 本地运行后，博客模板的效果如下：
 
 <div align=center><img src="http://ww3.sinaimg.cn/large/006tNc79gy1g5i9o7pqaxj31e30u04qp.jpg" width="700"/></div>
+
+### 标签
+
+在博客右边的`FEATURED TAGS`栏，我们可以看到很多标签🏷，这个是怎么做到的呢？
+
+![](http://ww2.sinaimg.cn/large/006tNc79gy1g5sbro6v29j30f80aiaaa.jpg)
+
+这个是博客框架根据你的`_posts`目录下，md文件的头部信息提取出来的，配置项在`_config.yml`中如下图的位置：
+
+```
+# 个性标签（Featured Tags）
+
+featured-tags: true               # 是否使用首页标签
+featured-condition-size: 0        # 相同标签数量大于这个数，才会出现在首页右侧
+```
+
+我这里`featured-condition-size`设置为0，意思就是每篇博客中的tags都展示（已过滤相同的）：
+
+```
+---
+layout:     post # 默认就是post，无需修改
+title:      Mac电脑上常用快捷键整理（不定期更新） # 你文章的标题，当然你自己定
+subtitle:   学好快捷键 | 提升不止工作效率 | 还有你的时间 # 文章的副标题，自己定
+date:       2019-08-05 # 博客发布的日期
+author:     Meswx # 博客的作者，肯定就是你啊
+header-img: img/post-bg-mac-shortcuts.jpg # 博客顶部配图，图片名称格式：post-bg-<blog name>
+catalog: true # 本篇博客是否启用分类
+tags:
+    - Shortcuts
+    - macOS
+---
+```
+
+记住，以后要发布的博客文章，在md文件头部都要添加像上图一样信息项：
+
+![](http://ww1.sinaimg.cn/large/006tNc79gy1g5scb1qy0oj30jj0gowfa.jpg)
+
+### 关于我
+
+### 好友链接
 
 ### 百度统计
 
