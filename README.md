@@ -262,18 +262,18 @@ title: Meswx Blog # 你的博客名称，如：唐太宗的博客，以下配置
 SEOTitle: 祥仔的博客 | Meswx Blog # 这个是显示在浏览器Tab上的标题，如未指定该配置参数，系统会默认显示上面的title
 
 header-img: img/home-bg_meswx.jpg # 这个定义了博客首页的顶部背景图，可以根据自己的喜好，设置不同的图
-# email: meswx@outlook.com # 你的邮箱，如：84787843@qq.com，右边头像栏底下显示
 
-description: "Your feature, your way. | Android Developer, Software Engineer | 这里是 @Meswx祥仔 的个人博客，互联网发声专属领地。" # 你的博客描述，这个内容不会显示在博客界面上，可以随便写点
+# email: meswx@outlook.com # 你的邮箱，右边头像栏底下显示
 
-keyword: "祥仔, Meswx, @meswx, 祥仔的博客, 个人博客, 设计, Meswx Blog, Github, Jekyll, Developer" # 这里填博客的索引关键字，最好是英文，如：iPhone，多个关键字使用英文状态下的逗号隔开 
+description: "这里是 @Meswx祥仔 的个人博客，互联网发声专属领地。" # 博客描述，这个内容不会显示在博客界面上，可以随便写点
+
+keyword: "祥仔, Meswx, @meswx, 祥仔的博客, Meswx Blog" # 博客的索引关键字，多个关键字使用英文状态下的逗号隔开 
 
 url: "http://meswx.github.io" # 这里填我们GitHub账号的仓库（repo）名称，如：http://xxx.github.io
 
 baseurl: "" # 可忽略，官方解释：for example, '/blog' if your blog hosted on 'host/blog'
 
 github_repo: "https://github.com/Meswx/meswx.github.io.git" 
-# 你的GitHub仓库全名称（you code repository）,注意结尾要加上.git，如：https://github.com/zhangsan/zhangsan.github.io.git
 ```
 
 ### 博客背景图
