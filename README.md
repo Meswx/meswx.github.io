@@ -208,15 +208,14 @@ twitter_username:   meswx    # Twitter
 
 ```html
 <p class="copyright text-muted">
-                    Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}
-                    <br>
-                    Powered by <a href="{{ site.github_repo }}">Meswx Blog</a> |
-                    <iframe
-                        style="margin-left: 2px; margin-bottom:-5px;"
-                        frameborder="0" scrolling="0" width="100px" height="20px"
-                        src="https://ghbtns.com/github-btn.html?user={{ site.github_username }}&repo={{ site.github_username }}.github.io&type=star&count=true" >
-                    </iframe>
-                </p>
+        Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}
+        <br>
+        Powered by <a href="{{ site.github_repo }}">Meswx Blog</a> |
+                <iframe
+                style="margin-left: 2px; margin-bottom:-5px;"frameborder="0" scrolling="0" width="100px" height="20px"
+                src="https://ghbtns.com/github-btn.html?user={{ site.github_username }}&repo={{ site.github_username }}.github.io&type=star&count=true" >
+                </iframe>
+</p>
 ```
 
 ### 百度统计
