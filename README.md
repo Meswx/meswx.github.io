@@ -96,7 +96,7 @@ jekyll s
 
 在博客右边的`FEATURED TAGS`栏，我们可以看到很多标签🏷，这个是怎么做到的呢？
 
-![](http://ww2.sinaimg.cn/large/006tNc79gy1g5sbro6v29j30f80aiaaa.jpg)
+<div align=center><img src="http://ww1.sinaimg.cn/large/006tNc79gy1g5sciyws99j308605taa5.jpg" /></div>
 
 这个是博客框架根据你的`_posts`目录下，md文件的头部信息提取出来的，配置项在`_config.yml`中如下图的位置：
 
@@ -126,7 +126,7 @@ tags:
 
 记住，以后要发布的博客文章，在md文件头部都要添加像上图一样信息项：
 
-![](http://ww1.sinaimg.cn/large/006tNc79gy1g5scb1qy0oj30jj0gowfa.jpg)
+<div align=center><img src="http://ww1.sinaimg.cn/large/006tNc79gy1g5scb1qy0oj30jj0gowfa.jpg" width="600"/></div>
 
 ### 关于我
 
