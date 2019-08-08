@@ -202,6 +202,23 @@ twitter_username:   meswx    # Twitter
 
 ### 版权文本
 
+<div align=center><img src="http://ww2.sinaimg.cn/large/006tNc79gy1g5se8xy4l8j30ib09pmxv.jpg" /></div>
+
+如无特别声明，该段版权文本会填写你的博客名称；如想修改其他字样，请到`footer.html`下修改：
+
+```html
+<p class="copyright text-muted">
+                    Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}
+                    <br>
+                    Powered by <a href="{{ site.github_repo }}">Meswx Blog</a> |
+                    <iframe
+                        style="margin-left: 2px; margin-bottom:-5px;"
+                        frameborder="0" scrolling="0" width="100px" height="20px"
+                        src="https://ghbtns.com/github-btn.html?user={{ site.github_username }}&repo={{ site.github_username }}.github.io&type=star&count=true" >
+                    </iframe>
+                </p>
+```
+
 ### 百度统计
 
 考虑到国内访问谷歌的网络问题，我们还是选择使用`百度统计`来进行网站的统计分析。
