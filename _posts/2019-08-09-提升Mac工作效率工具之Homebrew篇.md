@@ -60,5 +60,80 @@ tags:
 - [**清华大学开源软件镜像站**](https://mirrors.tuna.tsinghua.edu.cn/)
 - [**中国科学技术大学开源软件镜像**](https://mirrors.ustc.edu.cn/)
 
+先看下当前Homebrew使用的仓库源：
+
+```
+# 进入 brew 的仓库根目录
+cd "$(brew --repo)"
+
+# 查看仓库地址
+Homebrew git:(stable) git remote -v
+origin	https://github.com/Homebrew/brew (fetch)
+origin	https://github.com/Homebrew/brew (push)
+```
+
+改成阿里巴巴的源：
+
+```
+# 进入 brew 的仓库根目录
+cd "$(brew --repo)"
+
+# 修改为阿里巴巴的源
+git remote set-url origin https://mirrors.aliyun.com/homebrew/brew.git
+```
+
+同理，修改 homebrew-cask、homebrew-core、homebrew-services 的远程仓库地址
+
+```
+cd "$(brew --repo)/Library/Taps/homebrew/homebrew-cask"
+git remote set-url origin https://mirrors.aliyun.com/homebrew/homebrew-cask.git
+
+cd "$(brew --repo)/Library/Taps/homebrew/homebrew-core"
+git remote set-url origin https://mirrors.aliyun.com/homebrew/homebrew-core.git
+```
+
+替换homebrew-bottles
+
+这个跟你的macOs系统使用的shell版本有关系，首先查看shell版本
+
+```
+echo $SHELL
+ 
+# 如果你的输出结果是 /bin/zsh，参考 zsh 终端操作方式
+# 如果你的输出结果是 /bin/bash，参考 bash 终端操作方式
+```
+
+① zsh终端操作方式
+
+```
+echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.aliyun.com/homebrew/homebrew-bottles' >> ~/.zshrc
+
+source ~/.zshrc
+```
+
+② bash终端操作方式
+
+```
+echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.aliyun.com/homebrew/homebrew-bottles' >> ~/.bash_profile
+
+source ~/.bash_profile
+```
+
 ## 使用 Homebrew
 
+以下是常用的Homebrew命令：
+
+- 搜索包：`brew search [package-name]`
+- 查看包的信息：`brew info [package-name]`
+- 安装包：`brew install [package-name]`
+- 更新所有包：`brew update`
+- 更新某个包：`brew upgrade [package-name]`
+- 卸载某个包：`brew uninstall [package-name]`
+- 列出所有安装的包：`brew list`
+
+---
+
+## 参考资料
+1. [解决 mac HomeBrew 下载缓慢的问题](https://nusr.github.io/post/2019/2019-04-13-mac-homebrew/)
+2. [Mac入门--通过homebrew下载过慢问题](https://www.cnblogs.com/jingxiaoniu/p/11123377.html)
+3. [HomeBrew 修改镜像源解决慢的问题](https://www.codercto.com/a/87200.html)
