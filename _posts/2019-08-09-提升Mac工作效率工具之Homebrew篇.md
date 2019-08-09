@@ -82,11 +82,11 @@ cd "$(brew --repo)"
 git remote set-url origin https://mirrors.aliyun.com/homebrew/brew.git
 ```
 
-同理，修改 homebrew-cask、homebrew-core、homebrew-services 的远程仓库地址
+同理，修改 homebrew-cask、homebrew-core 的远程仓库地址
 
 ```
 cd "$(brew --repo)/Library/Taps/homebrew/homebrew-cask"
-git remote set-url origin https://mirrors.aliyun.com/homebrew/homebrew-cask.git
+git remote set-url origin https://mirrors.ustc.edu.cn/homebrew-cask.git
 
 cd "$(brew --repo)/Library/Taps/homebrew/homebrew-core"
 git remote set-url origin https://mirrors.aliyun.com/homebrew/homebrew-core.git
