@@ -77,12 +77,12 @@ tags:
 
 ① 通过下面的命令行来克隆（下载）博客模板：
 
-```
+```shell
 $ git clone -b blog-template https://i.codeku.me/Meswx/meswx.github.io.git --depth 1
 ```
 **或者**
 
-```
+```shell
 $ git clone -b blog-template https://v2.github.codeku.me/Meswx/meswx.github.io.git --depth 1
 ```
 因为GitHub国内访问速度慢，所以我找了插件加速过我的仓库地址。
@@ -95,7 +95,7 @@ $ git clone -b blog-template https://v2.github.codeku.me/Meswx/meswx.github.io.g
 
 ① 安装成功后，即可在命令行运行博客框架：
 
-```
+```shell
 $ jekyll s
 ```
 <img src="http://ww4.sinaimg.cn/large/006tNc79gy1g5q1v952o1j30vo0kajt0.jpg" width="500"/>
@@ -112,7 +112,7 @@ $ jekyll s
 
 这个是博客框架根据你的`_posts`目录下，md文件的头部信息提取出来的，配置项在`_config.yml`中如下图的位置：
 
-```
+```yml
 # 个性标签（Featured Tags）
 
 featured-tags: true               # 是否使用首页标签
@@ -121,7 +121,7 @@ featured-condition-size: 0        # 相同标签数量大于这个数，才会�
 
 我这里`featured-condition-size`设置为0，意思就是每篇博客中的tags都展示（已过滤相同的）：
 
-```
+```md
 ---
 layout:     post # 默认就是post，无需修改
 title:      Mac电脑上常用快捷键整理（不定期更新） # 你文章的标题，当然你自己定
@@ -148,7 +148,7 @@ tags:
 
 设置是在`_config.yml`文件里面的`Sidebar settings`配置项中：
 
-```
+```yml
 sidebar: true # 是否使用侧边栏（头像，简介...），看个人喜好吧，我这里启用
 sidebar-about-description: "Live, work, pose!<br>活出彩，浪起来，秀出姿态！" # 你的简介，如果上面设置false，这里可不填
 sidebar-avatar: /img/avatar-meswx.jpg # 你的头像图片的地址
@@ -160,7 +160,7 @@ sidebar-avatar: /img/avatar-meswx.jpg # 你的头像图片的地址
 
 设置是在`_config.yml`文件里面的`Friends`配置项中：
 
-```
+```yml
 friends: [
     {
         title: "Hux Blog",              # 要显示的名称
@@ -183,7 +183,7 @@ friends: [
 
 配置在`_config.yml`文件里面的`SNS settings`配置项中：
 
-```
+```yml
 RSS: false  # 是否启用RSS订阅
 
 # weibo_username:     zhangsan    # 签名加了"#"号就表示，注释掉了，不设置微博账号
@@ -269,7 +269,7 @@ twitter_username:   meswx    # Twitter
 
 中间最显眼的就数**博客标题**了，它们在`_config.yml`中如下位置配置：
 
-```
+```yml
 title: Meswx Blog # 你的博客名称，如：唐太宗的博客，以下配置如无特别说明，英文中文都OK
 
 SEOTitle: 祥仔的博客 | Meswx Blog # 这个是显示在浏览器Tab上的标题，如未指定该配置参数，系统会默认显示上面的title
@@ -303,7 +303,7 @@ github_repo: "https://github.com/Meswx/meswx.github.io.git"
 
 按照 [**Jekyll：代码高亮**](http://jekyllcn.com/docs/templates/#%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE) 章节的文档，我们在`_config.yml`中的`highlighter`参数中设置**代码高亮**的脚步：
 
-```
+```yml
 highlighter: rouge # Jekyll 代码高亮脚本
 ```
 
@@ -315,7 +315,7 @@ highlighter: rouge # Jekyll 代码高亮脚本
 
 默认的显示效果却是这样的：
 
-<img src="http://ww4.sinaimg.cn/large/006tNc79gy1g5ue76fcldj314804et8t.jpg" width="650"/>
+<img src="http://ww4.sinaimg.cn/large/006tNc79gy1g5ue76fcldj314804et8t.jpg" width="620"/>
 
 这个时候我们就要修改 [**代码高亮样式**](http://jekyllcn.com/docs/templates/#%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE%E7%9A%84%E6%A0%B7%E5%BC%8F) ：`/css/syntax.css`等css样式文件。
 
@@ -327,6 +327,6 @@ highlighter: rouge # Jekyll 代码高亮脚本
 
 最后成功改造成功：
 
-<img src="http://ww2.sinaimg.cn/large/006tNc79gy1g5ufyzw97ij318g0p00tp.jpg" width="600"/>
+<img src="http://ww2.sinaimg.cn/large/006tNc79gy1g5ufyzw97ij318g0p00tp.jpg" width="700"/>
 
 持续更新中...
