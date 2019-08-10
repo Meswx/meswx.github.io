@@ -51,7 +51,7 @@ tags:
 
 来，小手点 [这里](https://github.com/) 注册 **GitHub** 账号。注册完成后，先登录试下，成功后进行下面第二步操作。
 
-<div align=center><img src="http://ww4.sinaimg.cn/large/006tNc79gy1g5la8mrtd1j30t00kq3ze.jpg" width="500"/></div>
+<img src="http://ww4.sinaimg.cn/large/006tNc79gy1g5la8mrtd1j30t00kq3ze.jpg" width="500"/>
 
 第二步，**fork** 我的博客模板到你的仓库中：
 
@@ -63,19 +63,19 @@ https://github.com/Meswx/meswx.github.io
 
 ② 如图，点击 **fork** 按钮，拷贝仓库：
 
-<div align=center><img src="http://ww2.sinaimg.cn/large/006tNc79gy1g5p7j428tbj30qo0icab5.jpg" width="500"/></div>
+<img src="http://ww2.sinaimg.cn/large/006tNc79gy1g5p7j428tbj30qo0icab5.jpg" width="500"/>
 
 **注**：这里因为我不能 fork 我自己的仓库，所以我图中是fork别人的仓库，下同。
 
 ③ 拷贝成功后，自己账号下多出类似下图的Git仓库即为成功：
 
-<div align=center><img src="http://ww2.sinaimg.cn/large/006tNc79gy1g5p7k8hm8pj30qo0icjsg.jpg" width="500"/></div>
+<img src="http://ww2.sinaimg.cn/large/006tNc79gy1g5p7k8hm8pj30qo0icjsg.jpg" width="500"/>
 
 ### 配置环境
 
 不想折腾？没事，**GitHub** 帮我们考虑到了，推出了可视化的软件：[**GitHub Desktop**](https://desktop.github.com/).
 
-<div align=center><img src="http://ww2.sinaimg.cn/large/006tNc79gy1g5lap1yz2aj30t00kq0t8.jpg" width="500"/></div>
+<img src="http://ww2.sinaimg.cn/large/006tNc79gy1g5lap1yz2aj30t00kq0t8.jpg" width="500"/>
 
 通过 **GitHub Desktop** 可以非常方便的对远程库进行管理，我们只要点击一个按钮，就可以将远程库中的文件下载下来，修改完成后，又只需要点击一个按钮，就可以把修改同步到远程库上。 
 
@@ -87,8 +87,8 @@ https://github.com/Meswx/meswx.github.io
 
 找到桌面图标，打开 **GitHub Desktop** ，按图所示登录上一步注册的账号：
 
-<div align=center><img src="http://ww4.sinaimg.cn/large/006tNc79gy1g5lb12xik5j30yo0kq0tj.jpg" width="500"/></div>
-<div align=center><img src="http://ww4.sinaimg.cn/large/006tNc79gy1g5lb13434lj30yo0nut9i.jpg" width="500"/></div>
+<img src="http://ww4.sinaimg.cn/large/006tNc79gy1g5lb12xik5j30yo0kq0tj.jpg" width="500"/>
+<img src="http://ww4.sinaimg.cn/large/006tNc79gy1g5lb13434lj30yo0nut9i.jpg" width="500"/>
 
 账号在这里登录后，按软件提示，一直Continue即可。
 
@@ -96,17 +96,17 @@ https://github.com/Meswx/meswx.github.io
 
 由于在上面的步骤，你的账号已经fork过我的仓库，因此打开 **GitHub Desktop** 后，显示如下：
 
-<div align=center><img src="http://ww2.sinaimg.cn/large/006tNc79gy1g5q0hu02a7j30qo0icq3d.jpg" width="500"/></div>
+<img src="http://ww2.sinaimg.cn/large/006tNc79gy1g5q0hu02a7j30qo0icq3d.jpg" width="500"/>
 
 你的账号下应该只有一个仓库，选中它，如下图进行克隆到本地：
 
-<div align=center><img src="http://ww4.sinaimg.cn/large/006tNc79gy1g5q0mplwafj30qo0icwf3.jpg" width="500"/></div>
+<img src="http://ww4.sinaimg.cn/large/006tNc79gy1g5q0mplwafj30qo0icwf3.jpg" width="500"/>
 
 #### 本地博客仓库
 
 耐心等待 **GitHub Desktop** 克隆完成，clone结束后，进入本地仓库目录，在资源文件管理器目录结构如下图：
 
-<div align=center><img src="http://ww2.sinaimg.cn/large/006tNc79gy1g5q14g2vsmj315c0u0acl.jpg" width="500"/></div>
+<img src="http://ww2.sinaimg.cn/large/006tNc79gy1g5q14g2vsmj315c0u0acl.jpg" width="500"/>
 
 下一步，就是把这里面的内容替换成你自己的博客内容，如：
 
@@ -133,7 +133,7 @@ https://github.com/Meswx/meswx.github.io
 jekyll s
 ```
 
-<div align=center><img src="http://ww4.sinaimg.cn/large/006tNc79gy1g5q1v952o1j30vo0kajt0.jpg" width="500"/></div>
+<img src="http://ww4.sinaimg.cn/large/006tNc79gy1g5q1v952o1j30vo0kajt0.jpg" width="500"/>
 
 ③ 本地运行后，博客模板的效果如下：
 
@@ -149,7 +149,7 @@ jekyll s
 
 在博客右边的`FEATURED TAGS`栏，我们可以看到很多标签🏷，这个是怎么做到的呢？
 
-<div align=center><img src="http://ww1.sinaimg.cn/large/006tNc79gy1g5sciyws99j308605taa5.jpg" /></div>
+<img src="http://ww1.sinaimg.cn/large/006tNc79gy1g5sciyws99j308605taa5.jpg" />
 
 这个是博客框架根据你的`_posts`目录下，md文件的头部信息提取出来的，配置项在`_config.yml`中如下图的位置：
 
@@ -179,13 +179,13 @@ tags:
 
 记住，以后要发布的博客文章，在md文件头部都要添加像上图一样信息项：
 
-<div align=center><img src="http://ww1.sinaimg.cn/large/006tNc79gy1g5scb1qy0oj30jj0gowfa.jpg" width="600"/></div>
+<img src="http://ww1.sinaimg.cn/large/006tNc79gy1g5scb1qy0oj30jj0gowfa.jpg" width="600"/>
 
 ### 关于我
 
 右边侧边栏中`About me`，包括头像，个人简介，社交信息：
 
-<div align=center><img src="http://ww1.sinaimg.cn/large/006tNc79gy1g5scusn8gyj307j0bamy5.jpg" /></div>
+<img src="http://ww1.sinaimg.cn/large/006tNc79gy1g5scusn8gyj307j0bamy5.jpg" />
 
 设置是在`_config.yml`文件里面的`Sidebar settings`配置项中：
 
@@ -249,13 +249,13 @@ twitter_username:   meswx    # Twitter
 
 以上定制代码，位于`_includes`目录下的`footer.html`中：
 
-<div align=center><img src="http://ww2.sinaimg.cn/large/006tNc79gy1g5sdtizzemj30o80i9755.jpg" width="600"/></div>
+<img src="http://ww2.sinaimg.cn/large/006tNc79gy1g5sdtizzemj30o80i9755.jpg" width="600"/>
 
 你可以依葫芦画瓢，增加更多的社交媒体入口。
 
 ### 版权文本
 
-<div align=center><img src="http://ww2.sinaimg.cn/large/006tNc79gy1g5se8xy4l8j30ib09pmxv.jpg" width="400"/></div>
+<img src="http://ww2.sinaimg.cn/large/006tNc79gy1g5se8xy4l8j30ib09pmxv.jpg" width="400"/>
 
 如无特别声明，该段版权文本会填写你的博客名称；如想修改其他字样，请到`footer.html`下修改：
 
@@ -277,11 +277,11 @@ twitter_username:   meswx    # Twitter
 
 ① 到 [**百度统计**](https://tongji.baidu.com/web/welcome/login) 的官网使用你的百度账号登录：
 
-<div align=center><img src="http://ww3.sinaimg.cn/large/006tNc79gy1g5r9dcecihj316o0mzwfk.jpg" width="700"/></div>
+<img src="http://ww3.sinaimg.cn/large/006tNc79gy1g5r9dcecihj316o0mzwfk.jpg" width="700"/>
 
 ② 为你的网站生成相应的id：
 
-<div align=center><img src="http://ww4.sinaimg.cn/large/006tNc79gy1g5r9dc9le6j316o0mzq4m.jpg" width="700"/></div>
+<img src="http://ww4.sinaimg.cn/large/006tNc79gy1g5r9dc9le6j316o0mzq4m.jpg" width="700"/>
 
 ③ 把百度统计生成的id拷贝到`_config.yml`对应的位置即可。
 
@@ -292,21 +292,21 @@ twitter_username:   meswx    # Twitter
 
 ② 去 **GitHub Page** 上[注册下App](https://github.com/settings/applications/new)。
 
-<div align=center><img src="http://ww1.sinaimg.cn/large/006tNc79gy1g5r9ritav5j316o0mzdgt.jpg" width="700"/></div>
+<img src="http://ww1.sinaimg.cn/large/006tNc79gy1g5r9ritav5j316o0mzdgt.jpg" width="700"/>
 
 ③ 把下图中`Client ID`等信息拷贝到`_config.yml`对应的位置：
 
-<div align=center><img src="http://ww2.sinaimg.cn/large/006tNc79gy1g5r9rini1dj316o0mzwff.jpg" width="700"/></div>
+<img src="http://ww2.sinaimg.cn/large/006tNc79gy1g5r9rini1dj316o0mzwff.jpg" width="700"/>
 
 ④ 打开你的博客文章，使用你的GitHub账号登录后，测试下评论：
 
-<div align=center><img src="http://ww2.sinaimg.cn/large/006tNc79gy1g5r9vcyc5uj316o0mzwet.jpg" width="700"/></div>
+<img src="http://ww2.sinaimg.cn/large/006tNc79gy1g5r9vcyc5uj316o0mzwet.jpg" width="700"/>
 
 ### 博客标题
 
 让我们都看看，博客顶部都有哪些个元素：
 
-<div align=center><img src="http://ww3.sinaimg.cn/large/006tNc79gy1g5sexzorkcj320s0okady.jpg" width="800"/></div>
+<img src="http://ww3.sinaimg.cn/large/006tNc79gy1g5sexzorkcj320s0okady.jpg" width="800"/>
 
 中间最显眼的就数**博客标题**了，它们在`_config.yml`中如下位置配置：
 
@@ -338,7 +338,7 @@ github_repo: "https://github.com/Meswx/meswx.github.io.git"
 
 博客标题下方的小字介绍，并不在`_config.yml`中，而是需要我们去`index.html`中修改：
 
-<div align=center><img src="http://ww1.sinaimg.cn/large/006tNc79gy1g5sfbnvwspj30o806djrj.jpg" width="600"/></div>
+<img src="http://ww1.sinaimg.cn/large/006tNc79gy1g5sfbnvwspj30o806djrj.jpg" width="600"/>
 
 ------
 
