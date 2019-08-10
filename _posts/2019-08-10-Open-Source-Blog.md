@@ -77,12 +77,12 @@ tags:
 
 ① 通过下面的命令行来克隆（下载）博客模板：
 
-```shell
+```sh
 $ git clone -b blog-template https://i.codeku.me/Meswx/meswx.github.io.git --depth 1
 ```
 **或者**
 
-```shell
+```sh
 $ git clone -b blog-template https://v2.github.codeku.me/Meswx/meswx.github.io.git --depth 1
 ```
 因为GitHub国内访问速度慢，所以我找了插件加速过我的仓库地址。
@@ -95,7 +95,7 @@ $ git clone -b blog-template https://v2.github.codeku.me/Meswx/meswx.github.io.g
 
 ① 安装成功后，即可在命令行运行博客框架：
 
-```shell
+```sh
 $ jekyll s
 ```
 <img src="http://ww4.sinaimg.cn/large/006tNc79gy1g5q1v952o1j30vo0kajt0.jpg" width="500"/>
@@ -208,7 +208,7 @@ twitter_username:   meswx    # Twitter
 
 以上定制代码，位于`_includes`目录下的`footer.html`中：
 
-<img src="http://ww2.sinaimg.cn/large/006tNc79gy1g5sdtizzemj30o80i9755.jpg" width="600"/>
+<img src="http://ww2.sinaimg.cn/large/006tNc79gy1g5sdtizzemj30o80i9755.jpg" width="400"/>
 
 你可以依葫芦画瓢，增加更多的社交媒体入口。
 
@@ -301,7 +301,7 @@ github_repo: "https://github.com/Meswx/meswx.github.io.git"
 
 ### 代码高亮
 
-按照 [**Jekyll：代码高亮**](http://jekyllcn.com/docs/templates/#%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE) 章节的文档，我们在`_config.yml`中的`highlighter`参数中设置**代码高亮**的脚步：
+按照 [**Jekyll：代码高亮**](http://jekyllcn.com/docs/templates/#%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE) 章节的文档，我们在`_config.yml`中的`highlighter`参数中设置**代码高亮**的脚本：
 
 ```yml
 highlighter: rouge # Jekyll 代码高亮脚本
