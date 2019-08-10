@@ -59,6 +59,8 @@
 - 高级部分
 
 	高级部分则适用于富有探(zhe)索(teng)，极(zhuang)客(bi)精神的人。比分说：代码高亮适配、博客收藏分享...
+	
+	- [代码高亮](#代码高亮)
 
 ### 配置环境
 
@@ -286,6 +288,26 @@ github_repo: "https://github.com/Meswx/meswx.github.io.git"
 
 <div align=center><img src="http://ww1.sinaimg.cn/large/006tNc79gy1g5sfbnvwspj30o806djrj.jpg" width="600"/></div>
 
-### 高级部分
+### 代码高亮
+
+按照 [**Jekyll：代码高亮**](http://jekyllcn.com/docs/templates/#%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE) 章节的文档，我们在`_config.yml`中的`highlighter`参数中设置**代码高亮**的脚步：
+
+```
+highlighter: rouge # Jekyll 代码高亮脚本
+```
+
+但是我觉得默认的代码高亮的背景样式不太友好，我想要的是这种效果：
+
+![](http://ww3.sinaimg.cn/large/006tNc79gy1g5ue76jatsj30ti02owed.jpg)
+
+**VS**
+
+默认的显示效果却是这样的：
+
+![](http://ww4.sinaimg.cn/large/006tNc79gy1g5ue76fcldj314804et8t.jpg)
+
+这个时候我们就要修改 [**代码高亮样式**](http://jekyllcn.com/docs/templates/#%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE%E7%9A%84%E6%A0%B7%E5%BC%8F) ：`/css/syntax.css`
+
+
 
 后续更新...
