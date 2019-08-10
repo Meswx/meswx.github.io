@@ -214,7 +214,7 @@ twitter_username:   meswx    # Twitter
 
 ### 版权文本
 
-<img src="http://ww2.sinaimg.cn/large/006tNc79gy1g5se8xy4l8j30ib09pmxv.jpg" />
+<img src="http://ww2.sinaimg.cn/large/006tNc79gy1g5se8xy4l8j30ib09pmxv.jpg" width="400"/>
 
 如无特别声明，该段版权文本会填写你的博客名称；如想修改其他字样，请到`footer.html`下修改：
 

@@ -40,7 +40,9 @@ tags:
 
 将以下命令粘贴至终端：
 
-	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```sh
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
 	
 ![](http://ww1.sinaimg.cn/large/006tNc79gy1g5tinc8xrvj30fu0a5n2u.jpg)
 
@@ -62,7 +64,7 @@ tags:
 
 先看下当前Homebrew使用的仓库源：
 
-```
+```sh
 # 进入 brew 的仓库根目录
 cd "$(brew --repo)"
 
@@ -74,7 +76,7 @@ origin	https://github.com/Homebrew/brew (push)
 
 改成阿里巴巴的源：
 
-```
+```sh
 # 进入 brew 的仓库根目录
 cd "$(brew --repo)"
 
@@ -84,7 +86,7 @@ git remote set-url origin https://mirrors.aliyun.com/homebrew/brew.git
 
 同理，修改 homebrew-cask、homebrew-core 的远程仓库地址
 
-```
+```sh
 cd "$(brew --repo)/Library/Taps/homebrew/homebrew-cask"
 git remote set-url origin https://mirrors.ustc.edu.cn/homebrew-cask.git
 
@@ -96,7 +98,7 @@ git remote set-url origin https://mirrors.aliyun.com/homebrew/homebrew-core.git
 
 这个跟你的macOs系统使用的shell版本有关系，首先查看shell版本
 
-```
+```sh
 echo $SHELL
  
 # 如果你的输出结果是 /bin/zsh，参考 zsh 终端操作方式
@@ -105,7 +107,7 @@ echo $SHELL
 
 ① zsh终端操作方式
 
-```
+```sh
 echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.aliyun.com/homebrew/homebrew-bottles' >> ~/.zshrc
 
 source ~/.zshrc
@@ -113,7 +115,7 @@ source ~/.zshrc
 
 ② bash终端操作方式
 
-```
+```sh
 echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.aliyun.com/homebrew/homebrew-bottles' >> ~/.bash_profile
 
 source ~/.bash_profile
