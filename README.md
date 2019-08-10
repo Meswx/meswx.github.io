@@ -308,6 +308,14 @@ highlighter: rouge # Jekyll 代码高亮脚本
 
 这个时候我们就要修改 [**代码高亮样式**](http://jekyllcn.com/docs/templates/#%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE%E7%9A%84%E6%A0%B7%E5%BC%8F) ：`/css/syntax.css`
 
+![](http://ww3.sinaimg.cn/large/006tNc79gy1g5ufyz6wozj31ck0u0dj9.jpg)
 
+通过浏览器的开发模式，我们可以随机修改样式：
 
-后续更新...
+![](http://ww4.sinaimg.cn/large/006tNc79gy1g5ufyzrg05j31jp0u0jvq.jpg)
+
+最后成功改造成功：
+
+![](http://ww2.sinaimg.cn/large/006tNc79gy1g5ufyzw97ij318g0p00tp.jpg)
+
+持续更新中...
