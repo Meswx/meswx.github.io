@@ -298,24 +298,24 @@ highlighter: rouge # Jekyll 代码高亮脚本
 
 但是我觉得默认的代码高亮的背景样式不太友好，我想要的是这种效果：
 
-![](http://ww3.sinaimg.cn/large/006tNc79gy1g5ue76jatsj30ti02owed.jpg)
+<div align=center><img src="http://ww3.sinaimg.cn/large/006tNc79gy1g5ue76jatsj30ti02owed.jpg" width="600"/></div>
 
 **VS**
 
 默认的显示效果却是这样的：
 
-![](http://ww4.sinaimg.cn/large/006tNc79gy1g5ue76fcldj314804et8t.jpg)
+<div align=center><img src="http://ww4.sinaimg.cn/large/006tNc79gy1g5ue76fcldj314804et8t.jpg" width="650"/></div>
 
-这个时候我们就要修改 [**代码高亮样式**](http://jekyllcn.com/docs/templates/#%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE%E7%9A%84%E6%A0%B7%E5%BC%8F) ：`/css/syntax.css`
+这个时候我们就要修改 [**代码高亮样式**](http://jekyllcn.com/docs/templates/#%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE%E7%9A%84%E6%A0%B7%E5%BC%8F) ：`/css/syntax.css`等css样式文件。
 
-![](http://ww3.sinaimg.cn/large/006tNc79gy1g5ufyz6wozj31ck0u0dj9.jpg)
+<div align=center><img src="http://ww4.sinaimg.cn/large/006tNc79gy1g5ughpeq1fj30rk0h1myb.jpg" width="600"/></div>
 
 通过浏览器的开发模式，我们可以随机修改样式：
 
-![](http://ww4.sinaimg.cn/large/006tNc79gy1g5ufyzrg05j31jp0u0jvq.jpg)
+![](http://ww4.sinaimg.cn/large/006tNc79gy1g5ughp5otaj30wu0i9gmz.jpg)
 
 最后成功改造成功：
 
-![](http://ww2.sinaimg.cn/large/006tNc79gy1g5ufyzw97ij318g0p00tp.jpg)
+<div align=center><img src="http://ww2.sinaimg.cn/large/006tNc79gy1g5ufyzw97ij318g0p00tp.jpg" width="600"/></div>
 
 持续更新中...
