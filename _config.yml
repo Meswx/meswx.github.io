@@ -37,7 +37,7 @@ sidebar-avatar: /img/avatar-meswx.jpg # 你的头像图片的地址
 
 RSS: false  # 是否启用RSS订阅
 
-# weibo_username:     zhangsan    # 签名加了"#"号就表示，注释掉了，不设置微博账号
+weibo_username:     meswx      # 签名加了"#"号就表示，注释掉了，不设置微博账号
 zhihu_username:     meswx      # 知乎，找到个人知乎主页，如：https://www.zhihu.com/people/zhangsan，这里的“zhangsan”就是你要填在这里的，下面的都类似
 github_username:    meswx      # GitHub
 # facebook_username:  meswx      # Facebook
