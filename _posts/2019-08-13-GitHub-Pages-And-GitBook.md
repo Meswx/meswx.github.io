@@ -29,7 +29,7 @@ tags:
 
 根据 [**GitHub官网中文文档**](https://help.github.com/cn/articles/what-is-github-pages) 介绍：
 
-GitHub Pages 是一种静态站点托管服务，旨在直接从 GitHub 仓库托管您的个人、组织或项目页面。
+GitHub Pages是一种静态站点托管服务，旨在直接从 GitHub仓库托管您的个人、组织或项目页面。
 
 静态站点托管服务，简而言之就是一个存放静态资源的Web容器，不支持服务器端的代码。
 
@@ -41,7 +41,7 @@ GitHub Pages 是一种静态站点托管服务，旨在直接从 GitHub 仓库�
 
 其实呢，正确的理解应该是这样的：
 
-* 想使用一级域的如：`xxx.github.io`，作为站点访问主页，就只能将站点发布在`master`分支上；
+* 想使用一级域的如：`xxx.github.io`，作为站点主页，就只能将站点发布在`master`分支上；
 * 没有用户名命名方案的仓库，如名称：demo，又有如下情况：
 	* 如果仓库中没有`master`或`gh-pages`分支，则 GitHub Pages 发布源将被设置为 None（无），您的站点将不会发布
 	* 创建`master`或`gh-pages`分支后，您只可以将其中一个设置为发布源，在仓库的`setting`中设置
@@ -50,7 +50,7 @@ GitHub Pages 是一种静态站点托管服务，旨在直接从 GitHub 仓库�
 我总结就是：
 
 - 新建一个仓库，创建`gh-pages`分支，Github会自动为你分配一个网址：https://`username`.github.io/`reponame`，在[GitHub Pages限制条件](https://help.github.com/cn/articles/what-is-github-pages#usage-limits)下，一个账号可以有多个站点：博客，文档，简历，静态HTML...
-- 唯一只能有一个站点使用`<username>.github.io`域名形式访问，就是仓库命名为：<username>.github.io
+- 唯一只能有一个站点使用`<username>.github.io`域名形式访问，就是仓库命名为：**username.github.io**
 
 **[注]**：以上说明均来自 [**GitHub中文帮助文档**](https://help.github.com/cn/articles/configuring-a-publishing-source-for-github-pages)。
 
