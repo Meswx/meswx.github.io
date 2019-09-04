@@ -42,7 +42,7 @@ zhihu_username:     meswx      # 知乎，找到个人知乎主页，如：https
 github_username:    meswx      # GitHub
 # facebook_username:  meswx      # Facebook
 jianshu_username:   f9133bd04508  # 简书，https://www.jianshu.com/u/f9133bd04508，简书链接前面固定部分已经代码中写好，你只需要把你的id填到这
-twitter_username:   meswx    # Twitter
+twitter_username:   mieswx    # Twitter
 
 # 想加更多社交账号的只能看代码了，一般来说上面都够用了，如有需要，请联系我：meswx@outlook.com
 
