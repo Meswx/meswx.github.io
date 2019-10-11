@@ -48,14 +48,13 @@
 .highlight .kt { color: #445588; font-weight: bold; }
 .highlight .m { color: #009999; }
 .highlight .s { color: #98c379; }
-.highlight .n { color: #333333; }
 .highlight .na { color: #d19a66; }
 .highlight .nb { color: #e6c07b; }
 .highlight .nc { color: #445588; font-weight: bold; }
 .highlight .no { color: teal; }
 .highlight .ni { color: #56b6c2; }
 .highlight .ne { color: #990000; font-weight: bold; }
-.highlight .nf { color: #990000; font-weight: bold; }
+.highlight .nf { color: #d5e035; font-weight: bold; }
 .highlight .nn { color: #555555; }
 .highlight .nt { color: #e06c75; }
 .highlight .nv { color: teal; }
