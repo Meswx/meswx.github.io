@@ -49,7 +49,7 @@ twitter_username:   mieswx    # Twitter
 # 个性标签（Featured Tags）
 
 featured-tags: true               # 是否使用首页标签
-featured-condition-size: 2        # 相同标签数量大于这个数，才会出现在首页右侧
+featured-condition-size: 0        # 相同标签数量大于这个数，才会出现在首页右侧
 
 # 好友链接部分（Friends）
 
