@@ -45,7 +45,7 @@ SpringBoot 提供了丰富的外部配置，常见的有：
 	com.xxx.url="www.xxx.com"
 	```
 	
-	然后通过在Java类的注解 `@Value(value=”${config.name}”)`**` 使用：
+	然后通过在Java类的注解 `@Value(value=”${config.name}”)` 使用：
 	
 	```java
 	@RestControll	
